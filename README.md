@@ -18,3 +18,52 @@ To transform on-site exhibition observations into a structured, analyzable datas
 - Use Python to design a simple **Lead Scoring Model** for prioritizing follow-ups
 
 ---
+
+
+---
+
+## 🧠 Methods Used
+
+### **Lead Data Modeling**
+- Designed a structured dataset from qualitative exhibition notes  
+- Defined fields:  
+  `Country, Industry, Material_Need, MOQ, Delivery_Term, Sustainability_Preference, Urgency_Level, Followup_Priority`
+
+### **SQL Analysis**
+- Segment customers by:
+  - Region  
+  - Industry  
+  - MOQ range  
+  - Sustainability interest  
+- Identify high-intent categories
+
+### **Python Lead Scoring (In Progress)**
+- Weighted scoring based on:
+  - Alignment with product capabilities  
+  - MOQ feasibility  
+  - Urgency  
+  - Geographic fit  
+- Generates a simple priority ranking for follow-up
+
+---
+
+## 📈 Key Insights (Example — Will be updated)
+
+- Sustainability-driven buyers show higher follow-up potential  
+- Ideal MOQ range clusters around 3 segments  
+- Some industries show faster buying cycles
+- Region-level interest varies significantly based on logistics feasibility
+
+---
+
+## 🚀 Roadmap
+
+- [x] Lead data structure design  
+- [x] SQL segmentation  
+- [ ] Lead scoring model refinement  
+- [ ] Tableau visualization for leadership  
+- [ ] Integration into a unified B2B dashboard
+
+---
+
+
