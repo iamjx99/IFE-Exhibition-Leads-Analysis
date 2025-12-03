@@ -1,69 +1,21 @@
-# IFE Exhibition Leads Analysis (SQL & Python)
+# 🎯 背景故事（真實參展經驗敘述）
+### 背景
+我曾代表台灣食品包材製造商 CCI Industrial Corp. 出席英國倫敦舉辦的國際食品與飲品展覽 International Food & Drink Event（IFE）。這是我第一次以企業成員、而非一般參觀者身份參展，負責協助公司攤位介紹、與國際買家互動、蒐集潛在客戶需求與商機。
 
-This project analyzes potential customer leads collected during the  
-**IFE – International Food & Drink Exhibition (London)** for a Taiwanese food packaging manufacturer.
+### 角色與任務
+我的主要任務包括：接待來訪者、傾聽並整理其包材需求、記錄 leads、蒐集可能合作條件（如包裝材質、客製化需求、認證需求、運輸／交期要求、MOQ／訂購量等），以及協助後續資訊整理，以利業務與產品團隊進一步評估與跟進。
 
-The goal is to structure qualitative booth interactions into a **data model**,  
-identify promising customer segments, and create a foundation for future **Lead Scoring** and **B2B behavioral insights**.
+### 遇到的真實客戶案例
+在展會中，我接觸了多組來自飲品品牌與食品製造／加工業的潛在客戶。其中包括：
+一家正在開發自有珍珠奶茶品牌的公司，他們有客製化塑膠杯、杯蓋與封膜的需求，並要求高品質、可印刷／品牌化設計、供應穩定。
+一間我先前在英國兼職過的食品公司，他們希望為火鍋肉片或牛排包裝尋找食品級認證包材，並考量從台灣運輸、是否有海外倉儲、物流時程、訂單量等多項條件。
 
----
+### 我的洞察與貢獻
+通過與不同產業客戶的互動，我切身體會到 B2B 採購端在選擇包材供應商時，比較注重的不只是成本，而是整體供應鏈成熟度、品質穩定性、認證與合規性、客製與彈性、以及後勤支援（如物流、倉儲、交期）的能力。
+我協助將「客戶敘述的口頭需求」整理成「清楚、結構化的需求條目」——讓業務與產品團隊能立即理解與判斷合作可能性。這不只是支援銷售，也是一種 bridging：將市場需求轉為產品規格／評估依據。
 
-## 🎯 Project Objective
+### 對我的啟發
+這場展會不只是一次業務活動，而是我第一次真實接觸整個食品包材供應鏈的運作，也讓我明白：若想在資料分析／PM領域發揮所長，僅有技術是不夠的。必須理解客戶需求、產業供應鏈、商業評估邏輯，才能把「分析／數據」真正有價值地帶入實務。
+所以，我決定以這次經驗為出發點，把從展會 leads → 客戶需求 → 供應鏈與產品評估的流程，當作我的第一個跨領域專案，結合產品思維與資料分析能力。
 
-To transform on-site exhibition observations into a structured, analyzable dataset:
-
-- Convert booth interactions into a leads table  
-- Capture attributes such as **industry, material needs, MOQ, delivery terms, sustainability preference, and urgency**
-- Use SQL to explore demand patterns across visitor segments
-- Use Python to design a simple **Lead Scoring Model** for prioritizing follow-ups
-
----
-
-
----
-
-## 🧠 Methods Used
-
-### **Lead Data Modeling**
-- Designed a structured dataset from qualitative exhibition notes  
-- Defined fields:  
-  `Country, Industry, Material_Need, MOQ, Delivery_Term, Sustainability_Preference, Urgency_Level, Followup_Priority`
-
-### **SQL Analysis**
-- Segment customers by:
-  - Region  
-  - Industry  
-  - MOQ range  
-  - Sustainability interest  
-- Identify high-intent categories
-
-### **Python Lead Scoring (In Progress)**
-- Weighted scoring based on:
-  - Alignment with product capabilities  
-  - MOQ feasibility  
-  - Urgency  
-  - Geographic fit  
-- Generates a simple priority ranking for follow-up
-
----
-
-## 📈 Key Insights (Example — Will be updated)
-
-- Sustainability-driven buyers show higher follow-up potential  
-- Ideal MOQ range clusters around 3 segments  
-- Some industries show faster buying cycles
-- Region-level interest varies significantly based on logistics feasibility
-
----
-
-## 🚀 Roadmap
-
-- [x] Lead data structure design  
-- [x] SQL segmentation  
-- [ ] Lead scoring model refinement  
-- [ ] Tableau visualization for leadership  
-- [ ] Integration into a unified B2B dashboard
-
----
-
-
+這段經歷證明：我不只是數據背景，也能從商業 & 供應鏈視角思考；更可以協助把「市場需求 → 包材供應」轉化為「可分析、可規劃、可執行」的方案。
